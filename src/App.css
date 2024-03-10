@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+.movie--img{
+  height: 209px;
+  width: 140px;
+
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie--data{
+  display: flex;
+  flex: 33%;
+  flex-direction: column;
+  margin: 5px;
+  align-items: center;
+}
+
+.movieHeader{
+  background-color:gray;
+  color: white;
+  width:100%;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Bungee", sans-serif;
+  box-sizing: border-box;
+
+}
+
+.allMovieCards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.bold{
+  font-weight: bold;
+}
